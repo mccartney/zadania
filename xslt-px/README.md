@@ -63,7 +63,7 @@ Stanislaw August
   407 Projekt 1 |        6
 ```
 
-2. Dla kazdego projektu osobno; bez wzgledu na tygodnie; liczba godzin spedzonych przez poszczegolne osoby, np.
+2. Dla kazdego projektu osobno; bez wzgledu na tygodnie; liczba godzin spedzonych przez poszczegolne osoby (malejaco), np.
 
 
 ```
@@ -82,7 +82,7 @@ Adam Nowak     |        10.5
 ```
 
 
-3. Dla kazdego tygodnia (chronologicznie) procent godzin spedzonych na projekty, ktorych Id zaczyna sie od 1 lub 2.
+3. Dla kazdego tygodnia (chronologicznie) procent godzin spedzonych przez wszystkich pracownikow lacznie na projekty, ktorych Id zaczyna sie od 1 lub 2.
 
 ```
  tydzien        |  godziny |  procent godzin
