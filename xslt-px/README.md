@@ -46,7 +46,7 @@ Raporty powinny byc plikami XHTML (lub HTML), ktore wyswietlone w przegladarce b
  Interesujace raporty
 ----------------------
 
-1. Dla kazdego pracownika osobno; ze wszystkich tygodni razem; z projektow ktorych id nie zaczyna sie ani na 1 ani na 2; zestawienie projektow uszeregowane malejaco ze wzglednu na liczbe godzin, np.
+Raport 1. Dla kazdego pracownika osobno; ze wszystkich tygodni razem; z projektow ktorych id nie zaczyna sie ani na 1 ani na 2; zestawienie projektow uszeregowane malejaco ze wzglednu na liczbe godzin, np.
 
 ```
 Jan Kowalski
@@ -63,7 +63,7 @@ Stanislaw August
   407 Projekt 1 |        6
 ```
 
-2. Dla kazdego projektu osobno; bez wzgledu na tygodnie; liczba godzin spedzonych przez poszczegolne osoby (malejaco), np.
+Raport 2. Dla kazdego projektu osobno; bez wzgledu na tygodnie; liczba godzin spedzonych przez poszczegolne osoby (malejaco), np.
 
 
 ```
@@ -82,7 +82,7 @@ Adam Nowak     |        10.5
 ```
 
 
-3. Dla kazdego tygodnia (chronologicznie) procent godzin spedzonych przez wszystkich pracownikow lacznie na projekty, ktorych Id zaczyna sie od 1 lub 2.
+Raport 3. Dla kazdego tygodnia (chronologicznie) procent godzin spedzonych przez wszystkich pracownikow lacznie na projekty, ktorych Id zaczyna sie od 1 lub 2, np.
 
 ```
  tydzien        |  godziny |  procent godzin
@@ -91,6 +91,18 @@ Adam Nowak     |        10.5
   201329        |     58   |      2.9 %
   201330        |    116   |      5.8 %
 ```
+
+Raport 4. Dla kazdego pracownika, lacznie dla wszystkich okresow czasu, zestawienie ile czasu poswieca na projekty, w ktorych nikt inny jednoczesnie nie uczestniczyl.
+Tj. zliczamy tylko te wpisy z rejestru czasu, dla ktorych nie istnieja inne dot. tego samego projektu i tygodnia, ale od innych osob.
+
+```
+  pracownik     |   laczny czas pracy     |   liczba godzin w projektach jako jedyna osoba 
+----------------+-------------------------+-------------------------------------------------
+Jan Kowalski    |            1540         |                   334
+Adam Asnyk      |            1500         |                    67
+Adam Malysz     |             650         |                    34
+```
+
 
  Wersje rozwiazania
 ====================
