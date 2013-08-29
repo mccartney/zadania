@@ -44,8 +44,7 @@ Napisac narzedzie w XSLT, ktore takie raporty z danymi bedzie przetwarzac agregu
 Raporty powinny byc plikami XHTML (lub HTML), ktore wyswietlone w przegladarce beda czytelnym dla ludzi zestawieniem danych.
 
 Interesujace raporty:
-# Dla kazdego pracownika osobno; ze wszystkich tygodni razem; z projektow ktorych id nie zaczyna sie ani na 1 ani na 2; 
-zestawienie projektow uszeregowane malejaco ze wzglednu na liczbe godzin, np.
+- Dla kazdego pracownika osobno; ze wszystkich tygodni razem; z projektow ktorych id nie zaczyna sie ani na 1 ani na 2; zestawienie projektow uszeregowane malejaco ze wzglednu na liczbe godzin, np.
 ```
 Jan Kowalski
  projekt        | godziny
