@@ -6,6 +6,7 @@ w danym tygodniu pracy sie zajmowal.
 Kazdy pracownik raportuje czas za dany tydzien - wylicza, w ktorych projektach ile godzin pracowal.
 
 Przykladowy fragment:
+```
 	<Items>
 		<WeekId>201330</WeekId>
 		<ResourceId>XY0005</ResourceId>
@@ -22,6 +23,7 @@ Przykladowy fragment:
 		<ProjectName>Projekt 2</ProjectName>
 		<Number>7.00</Number>
 	</Items>
+```
 
 oznacza, ze mamy dwa wpisy z rejestru czasu pracy. Oba dotycza tego samego pracownika - o identyfikatorze XY0005, ktory nazywa sie "Jan Kowalski". 
 Oba rowniez odnosza sie do tego samego tygodnia pracy (201330). Okazuje sie, ze Jan Kowalski pracowal 33 godzin w projekcie "Projekt 1" oraz 
