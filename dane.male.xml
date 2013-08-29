@@ -1,0 +1,59 @@
+<CustomReport>
+	<xs:schema id="CustomReport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="CustomReport" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Items">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="WeekId" type="xs:string" minOccurs="0"/>
+								<xs:element name="ResourceId" type="xs:string" minOccurs="0"/>
+								<xs:element name="ResourceName" type="xs:string" minOccurs="0"/>
+								<xs:element name="ProjectId" type="xs:string" minOccurs="0"/>
+								<xs:element name="ProjectDesignation" type="xs:string" minOccurs="0"/>
+								<xs:element name="Number" type="xs:decimal" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Items>
+		<ResourceId>XY0005</ResourceId>
+		<ResourceName>Jan Kowalski</ResourceName>
+		<ProjectId>436</ProjectId>
+		<ProjectName>Projekt 1</ProjectName>
+		<Number>33.00</Number>
+	</Items>
+	<Items>
+		<ResourceId>XY0005</ResourceId>
+		<ResourceName>Jan Kowalski</ResourceName>
+		<ProjectId>504</ProjectId>
+		<ProjectName>Projekt 2</ProjectName>
+		<Number>7.00</Number>
+	</Items>
+	
+	<Items>
+		<ResourceId>XY0001</ResourceId>
+		<ResourceName>Stanislaw August</ResourceName>
+		<ProjectId>501</ProjectId>
+		<ProjectName>Projekt 3</ProjectName>
+		<Number>5.00</Number>
+	</Items>
+	<Items>
+		<ResourceId>XY0001</ResourceId>
+		<ResourceName>Stanislaw August</ResourceName>
+		<ProjectId>136</ProjectId>
+		<ProjectName>Projekt 6</ProjectName>
+		<Number>15.00</Number>
+	</Items>
+	<Items>
+		<ResourceId>XY0001</ResourceId>
+		<ResourceName>Stanislaw August</ResourceName>
+		<ProjectId>141</ProjectId>
+		<ProjectName>Projekt 7</ProjectName>
+		<Number>20.00</Number>
+	</Items>
+
+</CustomReport>
