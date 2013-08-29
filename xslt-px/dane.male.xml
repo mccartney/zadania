@@ -20,6 +20,7 @@
 		</xs:element>
 	</xs:schema>
 	<Items>
+		<WeekId>201330</WeekId>
 		<ResourceId>XY0005</ResourceId>
 		<ResourceName>Jan Kowalski</ResourceName>
 		<ProjectId>436</ProjectId>
@@ -27,6 +28,7 @@
 		<Number>33.00</Number>
 	</Items>
 	<Items>
+		<WeekId>201330</WeekId>
 		<ResourceId>XY0005</ResourceId>
 		<ResourceName>Jan Kowalski</ResourceName>
 		<ProjectId>504</ProjectId>
@@ -35,6 +37,7 @@
 	</Items>
 	
 	<Items>
+		<WeekId>201330</WeekId>
 		<ResourceId>XY0001</ResourceId>
 		<ResourceName>Stanislaw August</ResourceName>
 		<ProjectId>501</ProjectId>
@@ -42,6 +45,7 @@
 		<Number>5.00</Number>
 	</Items>
 	<Items>
+		<WeekId>201330</WeekId>
 		<ResourceId>XY0001</ResourceId>
 		<ResourceName>Stanislaw August</ResourceName>
 		<ProjectId>136</ProjectId>
@@ -49,6 +53,7 @@
 		<Number>15.00</Number>
 	</Items>
 	<Items>
+		<WeekId>201330</WeekId>
 		<ResourceId>XY0001</ResourceId>
 		<ResourceName>Stanislaw August</ResourceName>
 		<ProjectId>141</ProjectId>
