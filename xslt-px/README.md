@@ -120,7 +120,7 @@ Adam Malysz     |             650         |                    34
    </tr>
 </table>
 
-Dla abmitnych - dodatkowo mozna popracowac nad estetyka raportu - np. dodac naprzemienne kolory w tabelkach, albo wykresy slupkowe - proporcjonalne do przedstawianych wartosci (w stylu [http://i1-mac.softpedia-static.com/screenshots/JProfiler_1.jpg?1375414801]).
+Dla ambitnych - dodatkowo mozna popracowac nad estetyka raportu - np. dodac naprzemienne kolory w tabelkach, albo wykresy slupkowe - proporcjonalne do przedstawianych wartosci (w stylu [http://i1-mac.softpedia-static.com/screenshots/JProfiler_1.jpg?1375414801]).
 
  Dane przykladowe
 ==================
