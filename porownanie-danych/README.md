@@ -12,5 +12,5 @@ Pierwszy format to skrypt SQLowy wstawiające dane do tabeli bazodanowej. Drugi 
 to plik CSV (oddzielany znakami '|').
 Dane w obu plikach są w innej kolejności.
 
-Znaleźć wiersz, którym się te dwa pliki różnią.
+Znaleźć wiersz, którym się te dwa konkretnie podane pliki różnią.
 
