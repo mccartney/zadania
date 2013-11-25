@@ -6,7 +6,7 @@ Below you can find a description of a simple database (consisting of a few table
  Data structure
 ================
 The table ```WAREHOUSE``` lists warehouses in the system.
-The table ```ITEM``` is used to store item data. An item is assigned to a specific warehouse (by ```warehouse_id```). An item can be active (Y) or non-active (N).
+The table ```ITEM``` is used to store item data. An item is assigned to a specific warehouse (by ```warehouse_id```). An item can be active (Y) or inactive (N).
 The table ```FORECASTING``` holds current forecasting values for items, like estimate of demand (eod), total forecast, trend and standard deviation. Each of the items has a corresponding entry in forecasting table (```forecasting.id=item.id```).
 The table ```FORECASTING_HIST``` holds past and future forecasts for items. Forecasts history is stored for a specific month and item. Forecast_date is equal to first day of a month for which this forecast is valid. Forecast for item 7 and month of January 2013, is designated by ```item_id=7``` and ```forecast_date = '20130101'```. 
 
