@@ -42,3 +42,8 @@ STOCKHOLM                        ITEM02                              555.57 SEK 
 TOKYO                            ITEM01                            12345.78 JPY                               555.056         7.89 [91.89;93.09;94.29;95.49;96.69;97.89]
 TOKYO                            ITEM03                            55555.57 JPY                                     0           80 [179.1667;180.3333;181.5;182.6667;183.8333;185]
 ```
+
+ SQL / Database
+================
+
+It's advised to work towards an Oracle database.
