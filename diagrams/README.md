@@ -7,9 +7,9 @@ niektorzy uzywaja tzw. pseudo-kodu. Innym sposobem jest wyrazenie algorytmu w po
 Proponujemy nastepujaca notacje diagramow, ktora sklada sie z takich elementow:
 - ![Start](starter.png) START - poczatek programu, moze byc tylko jeden w calym diagramie.
 - ![Stop](starter.png) - koniec programu, moze wystepowac wiele razy.
-- ![Instrukcja](activity.png) - podstawowa instrukcja przypisania wartosci. Wewnatrz prostokatu pisze sie przypisanie, np. <pre>a <- 3</pre> podstawia wartosc "3" pod nazwe "a",
-a z kolei <code>b <- a+1 </code> do wartosci "a" dodaje 1 i podstawia wynik pod nazwe "b", itp.
-- ![Warunek](condition_small.png) - podaje sie jeden warunek np. <pre> x > 3 </pre>, dodatkowo z tego elementu wychodza dwie strzalki "TAK" oraz "NIE" - reprezentujace co ma sie dziac jesli warunek jest spelniony, a co jesli nie.
+- ![Instrukcja](activity.png) - podstawowa instrukcja przypisania wartosci. Wewnatrz prostokatu pisze sie przypisanie, np. `a <- 3` podstawia wartosc "3" pod nazwe "a",
+a z kolei `b <- a+1` do wartosci "a" dodaje 1 i podstawia wynik pod nazwe "b", itp.
+- ![Warunek](condition_small.png) - podaje sie jeden warunek np. `x > 3`, dodatkowo z tego elementu wychodza dwie strzalki "TAK" oraz "NIE" - reprezentujace co ma sie dziac jesli warunek jest spelniony, a co jesli nie.
 - strzalki laczace elementy diagramu - z jednego elementu moze wychodzic tylko jedna strzalka (z wyjatkiem warunkow - tam dwie), do jednego elementu moze wchodzic potencjalnie wiele strzalek.
 
  Cel
