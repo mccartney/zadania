@@ -6,7 +6,7 @@ niektorzy uzywaja tzw. pseudo-kodu. Innym sposobem jest wyrazenie algorytmu w po
 
 Proponujemy nastepujaca notacje diagramow, ktora sklada sie z takich elementow:
 <table>
- <tr> <th> ![Start](starter.png) START </th> <td> poczatek programu, moze byc tylko jeden w calym diagramie. </td> </tr>
+ <tr> <th> <img src='starter.png' alt='START'/> </th> <td> poczatek programu, moze byc tylko jeden w calym diagramie. </td> </tr>
  <tr> <th> ![Stop](starter.png) STOP </th> <td> koniec programu, moze wystepowac wiele razy. </td> </tr>
  <tr> <th> ![Instrukcja](activity.png) </th> <td> podstawowa instrukcja przypisania wartosci. Wewnatrz prostokatu pisze sie przypisanie, np. `a <- 3` podstawia wartosc "3" pod nazwe "a", 
 a z kolei `b <- a+1` do wartosci "a" dodaje 1 i podstawia wynik pod nazwe "b", itp. </td> </tr>
