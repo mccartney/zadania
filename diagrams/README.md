@@ -5,12 +5,14 @@ Algorytmy mozna zapisywac na wiele sposobow. Zwykle zapisuje sie (implementuje) 
 niektorzy uzywaja tzw. pseudo-kodu. Innym sposobem jest wyrazenie algorytmu w postaci diagramu.
 
 Proponujemy nastepujaca notacje diagramow, ktora sklada sie z takich elementow:
-- ![Start](starter.png) START - poczatek programu, moze byc tylko jeden w calym diagramie.
-- ![Stop](starter.png) - koniec programu, moze wystepowac wiele razy.
-- ![Instrukcja](activity.png) - podstawowa instrukcja przypisania wartosci. Wewnatrz prostokatu pisze sie przypisanie, np. `a <- 3` podstawia wartosc "3" pod nazwe "a",
-a z kolei `b <- a+1` do wartosci "a" dodaje 1 i podstawia wynik pod nazwe "b", itp.
-- ![Warunek](condition_small.png) - podaje sie jeden warunek np. `x > 3`, dodatkowo z tego elementu wychodza dwie strzalki "TAK" oraz "NIE" - reprezentujace co ma sie dziac jesli warunek jest spelniony, a co jesli nie.
-- strzalki laczace elementy diagramu - z jednego elementu moze wychodzic tylko jedna strzalka (z wyjatkiem warunkow - tam dwie), do jednego elementu moze wchodzic potencjalnie wiele strzalek.
+<table>
+ <tr> <th> ![Start](starter.png) START </th> <td> poczatek programu, moze byc tylko jeden w calym diagramie. </td> </tr>
+ <tr> <th> ![Stop](starter.png) STOP </th> <td> koniec programu, moze wystepowac wiele razy. </td> </tr>
+ <tr> <th> ![Instrukcja](activity.png) </th> <td> podstawowa instrukcja przypisania wartosci. Wewnatrz prostokatu pisze sie przypisanie, np. `a <- 3` podstawia wartosc "3" pod nazwe "a", 
+a z kolei `b <- a+1` do wartosci "a" dodaje 1 i podstawia wynik pod nazwe "b", itp. </td> </tr>
+ <tr> <th> ![Warunek](condition_small.png) </th> <td> podaje sie jeden warunek np. `x > 3`, dodatkowo z tego elementu wychodza dwie strzalki "TAK" oraz "NIE" - reprezentujace co ma sie dziac jesli warunek jest spelniony, a co jesli nie. </td> </tr>
+ <tr> <th> strzalki laczace elementy diagramu </th> <td> z jednego elementu moze wychodzic tylko jedna strzalka (z wyjatkiem warunkow - tam dwie), do jednego elementu moze wchodzic potencjalnie wiele strzalek. </td> </tr>
+</table>
 
  Cel
 =====
