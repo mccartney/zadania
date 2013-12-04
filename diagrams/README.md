@@ -62,8 +62,10 @@ Ponizszy diagram jest przykladowym rozwiazaniem innego zadania.
 Zadanie:
 
 ```
-Dana jest tablica liczb o nazwie TABELA o dlugosci N. Stworzyc program, ktory wylicza srednia arytmetyczna z liczb z tej tablicy.
+Dana jest tablica liczb o nazwie TAB o dlugosci DL. 
+Stworzyc program, ktory wylicza srednia arytmetyczna z liczb w tej tablicy.
 ```
 
+<img src='diagram_average.png' alt="Diagram for average"/>
 
 
