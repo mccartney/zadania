@@ -6,11 +6,11 @@ niektorzy uzywaja tzw. pseudo-kodu. Innym sposobem jest wyrazenie algorytmu w po
 
 Proponujemy nastepujaca notacje diagramow, ktora sklada sie z takich elementow:
 <table>
- <tr> <th> <img src='starter.png' alt='START'/> </th> <td> poczatek programu, moze byc tylko jeden w calym diagramie. </td> </tr>
- <tr> <th> ![Stop](starter.png) STOP </th> <td> koniec programu, moze wystepowac wiele razy. </td> </tr>
- <tr> <th> ![Instrukcja](activity.png) </th> <td> podstawowa instrukcja przypisania wartosci. Wewnatrz prostokatu pisze sie przypisanie, np. `a <- 3` podstawia wartosc "3" pod nazwe "a", 
+ <tr> <th> <img src='starter.png' alt='START'/>  START </th> <td> poczatek programu, moze byc tylko jeden w calym diagramie. </td> </tr>
+ <tr> <th> <img src='starter.png' alt='STOP'/> STOP </th> <td> koniec programu, moze wystepowac wiele razy. </td> </tr>
+ <tr> <th> <img src='activity.png' alt='Instrukcja'/> </th> <td> podstawowa instrukcja przypisania wartosci. Wewnatrz prostokatu pisze sie przypisanie, np. `a <- 3` podstawia wartosc "3" pod nazwe "a", 
 a z kolei `b <- a+1` do wartosci "a" dodaje 1 i podstawia wynik pod nazwe "b", itp. </td> </tr>
- <tr> <th> ![Warunek](condition_small.png) </th> <td> podaje sie jeden warunek np. `x > 3`, dodatkowo z tego elementu wychodza dwie strzalki "TAK" oraz "NIE" - reprezentujace co ma sie dziac jesli warunek jest spelniony, a co jesli nie. </td> </tr>
+ <tr> <th> <img src='condition_small.png' alt='Warunek'/> </th> <td> podaje sie jeden warunek np. `x > 3`, dodatkowo z tego elementu wychodza dwie strzalki "TAK" oraz "NIE" - reprezentujace co ma sie dziac jesli warunek jest spelniony, a co jesli nie. </td> </tr>
  <tr> <th> strzalki laczace elementy diagramu </th> <td> z jednego elementu moze wychodzic tylko jedna strzalka (z wyjatkiem warunkow - tam dwie), do jednego elementu moze wchodzic potencjalnie wiele strzalek. </td> </tr>
 </table>
 
