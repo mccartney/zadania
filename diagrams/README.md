@@ -8,9 +8,10 @@ Proponujemy następującą notację diagramów, która składa się z takich ele
 <table>
  <tr> <th> <img src='starter.png' alt='START'/>  START </th> <td> początek programu, może być tylko jeden w całym diagramie. </td> </tr>
  <tr> <th> <img src='starter.png' alt='STOP'/> STOP </th> <td> koniec programu, może występować wiele razy. </td> </tr>
- <tr> <th> <img src='activity.png' alt='Instrukcja'/> </th> <td> podstawowa instrukcja przypisania wartości. Wewnątrz prostokątu pisze się przypisanie, np. `a := 3` podstawia wartosc "3" pod nazwe "a", 
-a z kolei `b := a+1` do wartosci "a" dodaje 1 i podstawia wynik pod nazwe "b", `el := TAB[i]` bierze 
-element z tablicy TAB pod numerem `i` i wpisuje go pod nazwę "el" itp. </td> </tr>
+ <tr> <th> <img src='activity.png' alt='Instrukcja'/> </th> <td> podstawowa instrukcja przypisania wartości. Wewnątrz prostokątu pisze się przypisanie, np. 
+<br/>`a := 3` podstawia wartosc "3" pod nazwe "a", 
+<br/>a z kolei `b := a+1` ustawia nazwe "b" na wartosc o jeden wieksza niz jest w "a",
+<br/>`el := TAB[i]` bierze element z tablicy TAB pod numerem `i` i wpisuje go pod nazwę "el" itp. </td> </tr>
  <tr> <th> <img src='condition_small.png' alt='Warunek'/> </th> <td> podaje się jeden warunek np. `x > 3`, dodatkowo z tego elementu wychodzą dwie strzałki "TAK" oraz "NIE" - reprezentujące co ma się dziac jeśli warunek jest spełniony, a co jeśli nie. </td> </tr>
  <tr> <th> strzałki łączące elementy diagramu </th> <td> z jednego elementu może wychodzić tylko jedna strzałka (z wyjątkiem warunków - tam dwie), do jednego elementu może wchodzić potencjalnie wiele strzałek. </td> </tr>
 </table>
